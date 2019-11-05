@@ -1,0 +1,35 @@
+package herencia;
+
+import ayudas.circulo;
+import ayudas.cuadrado;
+import ayudas.lineas;
+import ayudas.triangulo;
+
+
+
+public class Herencia {
+    
+
+    
+    public static void main(String[] args) {
+        circulo circulo = new circulo();
+        lineas lineas = new lineas();
+        triangulo triangulo = new triangulo();
+        cuadrado cuadrado = new cuadrado();
+        
+        System.out.println("figura 1 ");
+        circulo.informacion();
+        
+        System.out.println("figura 2 ");
+        lineas.informacion();
+        
+        System.out.println("figura 3 ");
+        triangulo.informacion();
+        
+        System.out.println("figura 4 ");
+        cuadrado.informacion();
+        
+      
+    }
+    
+}

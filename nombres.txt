@@ -1,0 +1,39 @@
+package nombres;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author mayno
+ */
+public class Nombres {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner almacena = new Scanner(System.in);
+       
+        
+    String[] nombres = new String[10];
+    
+   
+   
+    
+    nombres[0]= "alexander";
+    nombres[1]="paola";
+    nombres[2]= "scarleth";
+    nombres[3]= "jhonatan";
+    nombres[4]= "nelson";
+    nombres[5]= "dorian";
+    nombres[6]= "gabriel";
+    nombres[7]="kevin";
+    nombres[8]= "norman";
+    nombres[9]="karla";
+    
+    for(int x=0; x<10; x++){ 
+       System.out.println("los nombres de los alumnos son: " + nombres[x]);
+    }
+    } 
+}

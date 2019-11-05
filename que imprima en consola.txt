@@ -1,0 +1,30 @@
+package programa.que.imprima.en.consola;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author mayno
+ */
+public class ProgramaQueImprimaEnConsola {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner entrada = new Scanner(System.in);
+        int nota=0;
+        String nombre="maynor"; 
+       
+        
+        System.out.print("ingrese la nota de: "+ nombre);
+      nota = entrada.nextInt();
+        
+        if(nota>70){
+    System.out.print(nombre+ " " + nota + " aprobado " + "\n");
+}else{
+   System.out.print(nombre+ " " + nota + " reprobado " + "\n");
+}
+    }
+}

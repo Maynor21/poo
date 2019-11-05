@@ -1,0 +1,34 @@
+package verdadero.o.falso;
+
+/**
+ *
+ * @author mayno
+ */
+public class VerdaderoOFalso {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        int M=6,T=1,K=-10;
+        
+        if(M>T){
+            System.out.println("el caso #1 es verdadero:" +M +" es mayor que: "+T);
+            
+        }else{
+            System.out.println("el caso #1 es falso:");
+        }
+        if(T/K==-5){
+           System.out.println("el caso #2 es verdadero");
+        }else{
+            System.out.print("el caso #2 es falso:" +T +" entre " +K +" no es -5");
+        }
+        if(M+T==7 ||M-T==5){ 
+            System.out.println("\nel caso #3 es verdadero:");
+        }else{
+            System.out.println("el caso #3 es \nes falso:");
+        }
+            }
+    
+}

@@ -1,0 +1,24 @@
+package pkgabstract;
+
+import ayuda.Honduras;
+import ayuda.nicaragua;
+import ayuda.salvador;
+
+/**
+ *
+ * @author mayno
+ */
+public class Abstract {
+
+    public static void main(String[] args) {
+      Honduras hn = new Honduras();
+      nicaragua nc = new nicaragua();
+      salvador sv = new salvador();
+      
+      System.out.println("el pais es: "+hn.getpais()+" y su presidente: "+hn.getpresident());
+      System.out.println("el pais es: "+nc.getpais()+" y su presidente: "+nc.getpresident());
+        System.out.println("el pais es: "+sv.getpais()+" y su presidente: "+sv.getpresident());
+    }
+    
+    
+}
